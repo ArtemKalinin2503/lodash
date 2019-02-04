@@ -68,4 +68,4 @@ function multByThree(obj) {
  //Метод filter - вернет новый массив исходя из переданных условий (в данном случае взять в массиве объектов arrObj все объекты с id больше 1)
  - console.log(_.filter(arrObj, function(item) { 
      return item.id > 1;
- })); 
+    })); 
